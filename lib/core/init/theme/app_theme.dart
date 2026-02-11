@@ -124,13 +124,13 @@ class AppTheme {
       ),
       
       // Card Theme
-      cardTheme: CardTheme(
-        color: AppColors.surfaceDark,
-        elevation: 2,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-        ),
+     cardTheme: CardThemeData(
+       elevation: 4,
+       shape: RoundedRectangleBorder(
+       borderRadius: BorderRadius.circular(8),
       ),
+    ),
+
       
       // Button Theme
       elevatedButtonTheme: ElevatedButtonThemeData(
